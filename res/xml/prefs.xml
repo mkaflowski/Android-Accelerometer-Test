@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:key="third" android:title="Differences to note" android:summary="From what value of difference do you want to note?" android:defaultValue="10"/>
+    <CheckBoxPreference android:key="first" android:title="Positive values" android:summary="Note positive values too." android:defaultValue="true"/>
+    <CheckBoxPreference android:key="second" android:title="Negative values" android:summary="Note negative values too." android:defaultValue="true"/>
+    <CheckBoxPreference android:key="x" android:title="Note X" android:defaultValue="true"/>
+    <CheckBoxPreference android:key="y" android:title="Note Y" android:defaultValue="true"/>
+    <CheckBoxPreference android:key="z" android:title="Note Z" android:defaultValue="true"/>
+</PreferenceScreen>
